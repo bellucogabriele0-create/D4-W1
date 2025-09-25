@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>EPICODE</title>
+  </head>
+  <body>
+    <!-- inizio menù -->
+    <nav>
+      <div class="divnav">
+        <img src="./assets/logo.svg" alt="EPICODE LOGO" />
+        <p>Epicode - il blog dei developers</p>
+        <a href="https://epicode.com/it/" target="_blank">
+          <i class="fas fa-home"></i>HOME</a
+        >
+        <a href="https://epicode.com/it/press/" target="_blank">
+          <i class="far fa-newspaper"></i>ARTICOLI</a
+        >
+        <a
+          id="joblogo"
+          href="https://epicode.com/it/lavora-con-noi/"
+          target="_blank"
+          ><i class="fas fa-laptop-house"></i>JOB</a
+        >
+      </div>
+    </nav>
+    <!-- fine menù -->
+    <!-- titolo post -->
+    <main>
+      <section>
+        <h1>COME CREARE UN TEMPLATE PER I POST</h1>
+        <p>di Mario rossi - pubblicato il 23-09-2025</p>
+        <!-- contenuto dei post -->
+        <p>
+          la prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le <strong>parti comuni</strong> da applicare a tutte le
+          pagine
+        </p>
+        <p>le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>contenuti di intestazione del tag &lt;header&gt;</li>
+          <li>
+            Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)
+          </li>
+          <li>
+            contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h1>FORMATTAZIONE DEL CODICE</h1>
+        <p>
+          il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da selezionare con i CSS. perciò i passi saranno:
+        </p>
+        <ol>
+          <li>
+            progettare il markup assegnando ad ogni specifico testo il tag
+            appropriato
+          </li>
+          <li>
+            scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+          <li>applicare gli stili CSS</li>
+        </ol>
+        <p>
+          l'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+          la diffusione pressoché totale.
+        </p>
+        <!-- tab. a 3 col. -->
+        <table>
+          <caption>
+            diffusione dei CSS
+          </caption>
+          <tr>
+            <th>ANNO</th>
+            <th>% DI UTILIZZO</th>
+            <th>SUPPORTO BROWSER</th>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
+        <p>
+          il test di validazione potrà essere fatto tramite il
+          <a href="https://www.youtube.com/watch?v=aBSZVeBRvDY" target="_blank"
+            >tool online</a
+          >
+          dedicato allo scopo. una volta otimizzato il tutto, avremo raggiunto
+          il nostro obiettivo ed essere stati dei veri developers come loro:
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/aBSZVeBRvDY?si=08IohJXs23RhAgWp"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- fine contenuto post -->
+      <section>
+        <h1>NOVITÀ</h1>
+        <p>
+          vuoi rimanere aggiornato su altre novità dei blog? Iscriviti alla
+          nostra newsletter:
+        </p>
+        <!-- form newsletter -->
+        <form action="email" autocomplete="on">
+          <label for="email"></label>
+          <input type="email" placeholder="la tua email" required />
+          <button type="submit">Iscriviti!</button>
+        </form>
+        <!-- fine form -->
+      </section>
+      <section>
+        <!-- area correlati -->
+        <p>ARTICOLI CORRELATI</p>
+        <a
+          href="https://epicode.com/it/wikicode/cosa-si-intende-code-review-come-effettuarla-efficacemente/"
+          target="_blank"
+          >validare il codice</a
+        >
+        <p>categoria develop</p>
+        <p>data:22-09-2025</p>
+        <div></div>
+        <a
+          href="https://epicode.com/it/wikicode/imparare-a-programmare/"
+          target="_blank"
+        >
+          correggere la sintassi
+        </a>
+        <p>categoria: developer</p>
+        <p>data:23-09-2025</p>
+        <a href="#">meno Kb nella pagina</a>
+        <p>categoria: ottimizzazione</p>
+        <p>data:24-09-2025</p>
+
+        <!-- fine area correlati -->
+      </section>
+    </main>
+    <footer id="footer">
+      <!-- copyright e info -->
+      <p>Blog Epicode &copy;2025</p>
+      <i
+        >testata online di Mario Rossi, registrata con prot. n213/2018- via
+        luigi einaudi 2 - Milano. P.IVA 00112233. info@epicode.school
+        <a
+          href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=DmwnWtMpdBzpCGCRHgDwPLdVNQMrMPTJXcncjClklxbhPHNtxCjWcXQpsJkncrrlKskwLvCfbRdV"
+          target="_blank"
+          >info@epicode.school</a
+        >
+      </i>
+    </footer>
+  </body>
+</html>
