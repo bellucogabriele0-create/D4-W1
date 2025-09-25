@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     font-weight: bold;
     margin: 0.5em 0;
 }
@@ -36,10 +38,14 @@ ol {
 /* f- reset */
 /* h m f general */
 body{
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
      background-image: url(./sfondo.png);
      font-family: 'Open Sans' sans-serif;
 }
 nav {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
      width: 50%; 
     margin-left:auto; 
     margin-right: auto;
@@ -49,6 +55,8 @@ nav {
 box-shadow: 5px 5px 15px -3px #000000;
 }
 main {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
      width: 50%; 
     margin-left:auto; 
     margin-right: auto;
@@ -59,6 +67,8 @@ main {
     padding: 5% auto;
 }
 footer {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
      width: 50%; 
     margin-left:auto; 
     margin-right: auto;
@@ -70,16 +80,24 @@ box-shadow: 5px 5px 15px -3px #000000;
 
 /* n m f finish general */
 .autor{
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     color: grey;
 }
 .strongmain {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     color: violet;
 }
 .formatta {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     color: violet;
 }
 table
 {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     margin-left: 50%;
     margin-right: 50%;
     text-align: center;
@@ -87,12 +105,18 @@ table
 }
 th
 {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     background-color: turquoise;
 }
 .td {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     background-color: grey;
 }
 .sectionnews {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
     background-color: grey;
     margin: auto;
     border-radius: 15%;
