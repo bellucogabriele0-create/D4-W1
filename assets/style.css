@@ -72,5 +72,27 @@ box-shadow: 5px 5px 15px -3px #000000;
 .autor{
     color: grey;
 }
-
-
+.strongmain {
+    color: violet;
+}
+.formatta {
+    color: violet;
+}
+table
+{
+    text-align: center;
+   border-bottom: 2px solid blue; 
+}
+th
+{
+    background-color: turquoise;
+}
+.td {
+    background-color: grey;
+}
+.sectionnews {
+    background-color: grey;
+    margin: auto;
+    border-radius: 15%;
+    margin: auto 15 auto 15;
+}

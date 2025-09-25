@@ -46,8 +46,8 @@
           <!-- contenuto dei post -->
           <p>
             la prima cosa da fare è suddividere in blocchi logici la pagina,
-            identificando le <strong>parti comuni</strong> da applicare a tutte
-            le pagine
+            identificando le <strong class="strongmain">parti comuni</strong> da
+            applicare a tutte le pagine
           </p>
           <p>le varie aree saranno quindi suddivise in:</p>
           <ul>
@@ -66,7 +66,9 @@
           <h1>FORMATTAZIONE DEL CODICE</h1>
           <p>
             il testo dell'articolo dovrà essere formattato per identificare
-            tutte le parti da selezionare con i CSS. perciò i passi saranno:
+            tutte le parti da
+            <strong class="formatta"> selezionare con i CSS.</strong> perciò i
+            passi saranno:
           </p>
           <ol>
             <li>
@@ -99,7 +101,7 @@
               <td>17%</td>
             </tr>
             <tr>
-              <td>2002</td>
+              <td class="td">2002</td>
               <td>35%</td>
               <td>22%</td>
             </tr>
@@ -109,7 +111,7 @@
               <td>42%</td>
             </tr>
             <tr>
-              <td>2008</td>
+              <td class="td">2008</td>
               <td>80%</td>
               <td>51%</td>
             </tr>
@@ -142,41 +144,46 @@
         </section>
         <!-- fine contenuto post -->
         <section>
-          <h1>NOVITÀ</h1>
-          <p>
-            vuoi rimanere aggiornato su altre novità dei blog? Iscriviti alla
-            nostra newsletter:
-          </p>
-          <!-- form newsletter -->
-          <form action="email" autocomplete="on">
-            <label for="email"></label>
-            <input type="email" placeholder="la tua email" required />
-            <button type="submit">Iscriviti!</button>
-          </form>
-          <!-- fine form -->
+          <div class="sectionnews">
+            <h1>NOVITÀ</h1>
+            <p>
+              vuoi rimanere aggiornato su altre novità dei blog? Iscriviti alla
+              nostra newsletter:
+            </p>
+            <!-- form newsletter -->
+            <form action="email" autocomplete="on">
+              <label for="email"></label>
+              <input type="email" placeholder="la tua email" required />
+              <button type="submit">Iscriviti!</button>
+            </form>
+            <!-- fine form -->
+          </div>
         </section>
         <section>
-          <!-- area correlati -->
-          <p>ARTICOLI CORRELATI</p>
-          <a
-            href="https://epicode.com/it/wikicode/cosa-si-intende-code-review-come-effettuarla-efficacemente/"
-            target="_blank"
-            >validare il codice</a
-          >
-          <p>categoria develop</p>
-          <p>data:22-09-2025</p>
-          <div></div>
-          <a
-            href="https://epicode.com/it/wikicode/imparare-a-programmare/"
-            target="_blank"
-          >
-            correggere la sintassi
-          </a>
-          <p>categoria: developer</p>
-          <p>data:23-09-2025</p>
-          <a href="#">meno Kb nella pagina</a>
-          <p>categoria: ottimizzazione</p>
-          <p>data:24-09-2025</p>
+          <div class="sectionnews">
+            <!-- area correlati -->
+            <p>ARTICOLI CORRELATI</p>
+            <a
+              href="https://epicode.com/it/wikicode/cosa-si-intende-code-review-come-effettuarla-efficacemente/"
+              target="_blank"
+              >validare il codice</a
+            >
+            <p>categoria develop</p>
+            <p>data:22-09-2025</p>
+          </div>
+          <div class="sectionnews">
+            <a
+              href="https://epicode.com/it/wikicode/imparare-a-programmare/"
+              target="_blank"
+            >
+              correggere la sintassi
+            </a>
+            <p>categoria: developer</p>
+            <p>data:23-09-2025</p>
+            <a href="#">meno Kb nella pagina</a>
+            <p>categoria: ottimizzazione</p>
+            <p>data:24-09-2025</p>
+          </div>
 
           <!-- fine area correlati -->
         </section>
