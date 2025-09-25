@@ -43,36 +43,34 @@ nav {
      width: 50%; 
     margin-left:auto; 
     margin-right: auto;
-}
-main {
-     width: 50%; 
-    margin-left:auto; 
-    margin-right: auto;
-}
-footer {
-     width: 50%; 
-    margin-left:auto; 
-    margin-right: auto;
-}
-
-/* n m f finish general */
-nav {
     text-align: center;
     background-color: #0f95e5 ;
     padding: auto;
 box-shadow: 5px 5px 15px -3px #000000;
 }
 main {
-    text-align: center;
+     width: 50%; 
+    margin-left:auto; 
+    margin-right: auto;
+     text-align: center;
     background-color: white ;
     padding: auto;
-box-shadow: 5px 5px 15px -3px #000000;
+    box-shadow: 5px 5px 15px -3px #000000;
+    padding: 5% auto;
 }
 footer {
+     width: 50%; 
+    margin-left:auto; 
+    margin-right: auto;
     text-align: center;
     background-color: blue ;
     padding: auto;
 box-shadow: 5px 5px 15px -3px #000000;
+}
+
+/* n m f finish general */
+.autor{
+    color: grey;
 }
 
 
