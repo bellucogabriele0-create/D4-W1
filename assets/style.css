@@ -80,6 +80,8 @@ box-shadow: 5px 5px 15px -3px #000000;
 }
 table
 {
+    margin-left: 50%;
+    margin-right: 50%;
     text-align: center;
    border-bottom: 2px solid blue; 
 }
